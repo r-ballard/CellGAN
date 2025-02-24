@@ -1,10 +1,10 @@
 # CellGAN-for-Cervical-Cell-Synthesis
-Official Pytorch Implementation for "CellGAN: Conditional Cervical Cell Synthesis for Augmenting Cytopathological Image Classification" (Early Accepted in MICCAI 2023 https://link.springer.com/chapter/10.1007/978-3-031-43987-2_47)
+Official Pytorch Implementation of [CellGAN: Conditional Cervical Cell Synthesis for Augmenting Cytopathological Image Classification](https://link.springer.com/chapter/10.1007/978-3-031-43987-2_47) (Early Accepted in MICCAI 2023)
 
 ### Method
 ![Overview of CellGAN](/figures/overview.png "Overview of CellGAN")
 
-CellGAN synthesizes 256×256 cytopathological images of different cervical squamous cell types (`NILM, ASC-US, LSIL, ASC-H, and HSIL`). It can serve as a data augmentation tool for patch-level cell classification in automatic cervical abnormality screening.
+CellGAN synthesizes 256×256 cytopathological images of different cervical squamous cell types (`NILM, ASC-US, LSIL, ASC-H, and HSIL`). It can serve as a data augmentation tool for patch-level cell classification in automatic cervical abnormality screening. Please refer to [the paper](https://link.springer.com/chapter/10.1007/978-3-031-43987-2_47) for more details.
 
 ### Qualitative Results
 ![Visualization Results](/figures/results.png "Visualization Results")
